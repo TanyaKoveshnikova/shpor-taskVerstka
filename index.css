@@ -1,0 +1,56 @@
+header {
+    overflow: hidden;
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #5757a0;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: lavender;
+    border: 1px solid #5757a0;
+    min-width: 50px;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+}
+
+li ul.sub-menu {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.top ul {
+    display: none;
+}
+
+li.top:hover ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+
+.searchAnything {
+    float: right;
+}
+
+li.top > ul > li a {
+    text-decoration: none;
+    min-width: 100px;
+    border: 5px solid blue;
+    height: 80px;
+    line-height: 30px;
+    padding: 10px;
+}
