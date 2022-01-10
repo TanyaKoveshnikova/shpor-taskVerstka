@@ -12,7 +12,7 @@ html {
 
 header {
     border-bottom: rgb(59, 61, 68) 2px solid;
-    background: rgba(82, 85, 94, 0.75);
+    background: rgba(70, 74, 83, 0.7);
     border-radius: 8px;
 }
 
@@ -22,50 +22,57 @@ header {
 
 .menu > ul {
     justify-content: left;
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-left: 5%;
 }
 
 .menu > ul li {
     display: inline-block;
     position: relative;
     float: left;
-    min-width: 150px;
 }
 
-.menu > ul li:first-child {
-    border-left: darkorchid 1px solid;
+.menu > ul > li {
+    padding: 5px 0;
 }
 
 .menu > ul li a {
     display: block;
-    background: antiquewhite;
-    padding: 15px;
-    font-size: 14px;
+    background: rgba(47, 49, 55, 0.9);
+    border-left: rgb(59, 61, 68) 2px solid;
+    border-radius: 8px;
+    color: white;
+    min-width: 130px;
+    width: 150px;
+    padding: 20px 50px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .menu li a:hover {
-    background: darkgray;
+    background: rgba(145, 149, 161, 1);
+    color: black;
     transition: all 0.3s ease;
 }
 
 .menu li ul {
     display: none;
     position: absolute;
-    min-width: 150px;
-
+    min-width: 120px;
 }
 
 .menu li > ul li {
-    border: darkorchid 1px solid;
+    background: rgba(35, 37, 41, 0.9);
+    border: rgb(59, 61, 68) 2px solid;
+    border-radius: 8px;
+    left: -1px;
 }
 
 .menu li > ul li a {
-    padding: 10px;
     text-decoration: none;
+    width: 190px;
 }
 
 .menu li:hover > ul {
@@ -74,10 +81,26 @@ header {
 
 .searchAnything {
     float: right;
-    padding-top: -40px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 13%;
+    border: rgb(59, 61, 68) 2px solid;
+    background: rgba(47, 49, 55, 0.9);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.searchAnything span {
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 .clearfix {
     clear: both;
 }
+
+
 
