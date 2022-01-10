@@ -1,5 +1,5 @@
 html {
-    background: url("srcCard/ice.jpeg") no-repeat center center fixed;
+    background: url("../srcCard/backCat.jpeg") no-repeat center center fixed;
     height: 100%;
     background-size: cover;
     color: white;
@@ -18,6 +18,10 @@ body {
 .main {
     padding: 30px;
     flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 * {
@@ -26,18 +30,16 @@ body {
 }
 
 header {
-    border-bottom: rgb(59, 61, 68) 2px solid;
-    background: rgba(70, 74, 83, 0.7);
-    border-radius: 8px;
+    border-bottom: rgb(73, 124, 80) 2px solid;
+    background: rgba(36, 61, 39, 0.7);
+
 }
 
-.menu ul {
-    list-style: none;
-}
 
 .menu > ul {
     justify-content: left;
     margin-left: 5%;
+    list-style: none;
 }
 
 .menu > ul li {
@@ -52,8 +54,8 @@ header {
 
 .menu > ul li a {
     display: block;
-    background: rgba(47, 49, 55, 0.9);
-    border-left: rgb(59, 61, 68) 2px solid;
+    background: rgba(35, 61, 39, 0.9);
+    border-left: rgb(28, 48, 31) 2px solid;
     border-radius: 8px;
     color: white;
     min-width: 130px;
@@ -67,52 +69,12 @@ header {
 }
 
 .menu li a:hover {
-    background: rgba(145, 149, 161, 1);
+    background: rgba(82, 142, 91, 1);
     color: black;
     transition: all 0.3s ease;
     transform: scale(1.05);
 }
 
-.menu li ul {
-    display: none;
-    position: absolute;
-    min-width: 120px;
-}
-
-.menu li > ul li {
-    background: rgba(35, 37, 41, 0.9);
-    border: rgb(59, 61, 68) 2px solid;
-    border-radius: 8px;
-    left: -1px;
-}
-
-.menu li > ul li a {
-    text-decoration: none;
-    width: 190px;
-}
-
-.menu li:hover > ul {
-    display: block;
-}
-
-.searchAnything {
-    float: right;
-    font-size: 20px;
-    margin-top: 8px;
-    margin-right: 13%;
-    border: rgb(59, 61, 68) 2px solid;
-    background: rgba(47, 49, 55, 0.9);
-    padding: 10px 30px;
-    border-radius: 8px;
-}
-
-.searchAnything span {
-    color: white;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-left: 10px;
-}
 
 .clearfix {
     clear: both;
@@ -120,18 +82,17 @@ header {
 
 article {
     margin-top: 40px;
-    width: 1000px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
     border: rgb(59, 61, 68) 2px solid;
-    background: rgba(159, 163, 173, 1);
+    background: rgba(162, 173, 164, 1);
     padding: 10px;
     border-radius: 15px;
-    box-shadow:0 0 10px 10px rgb(51,51,51);
 }
 
 .cat img {
-    width: 400px;
+    width: 300px;
     float: left;
     margin-right: 15px;
 }
@@ -139,7 +100,7 @@ article {
 .cat h3 {
     font-size: 30px;
     border: rgb(59, 61, 68) 2px solid;
-    background: rgba(70, 74, 83, 0.6);
+    background: rgba(22, 54, 27, 0.6);
     border-top-right-radius: 15px;
 }
 
@@ -153,7 +114,7 @@ article {
 }
 
 .footer {
-    background-color: rgb(47, 49, 55);
+    background-color: rgb(28, 48, 31);
     color: white;
     text-align: left;
     padding: 30px;
