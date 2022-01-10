@@ -102,5 +102,38 @@ header {
     clear: both;
 }
 
+article {
+    margin-top: 100px;
+    min-width: 150px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(59, 61, 68) 2px solid;
+    background: rgba(159, 163, 173, 1);
+    padding: 10px;
+    border-radius: 15px;
+}
 
+.cat img {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.cat h3 {
+    font-size: 30px;
+    border: rgb(59, 61, 68) 2px solid;
+    background: rgba(70, 74, 83, 0.6);
+    border-top-right-radius: 15px;
+    /*border-radius: 8px;*/
+}
+
+.cat p {
+    margin-top: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgb(47, 49, 55);
+    font-weight: 550;
+    letter-spacing:0.8px;
+}
 
